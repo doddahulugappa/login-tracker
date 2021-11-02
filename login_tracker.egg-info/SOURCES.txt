@@ -1,5 +1,6 @@
+LICENSE
 MANIFEST.in
-README.rst
+README.md
 setup.cfg
 setup.py
 login_tracker/__init__.py
