@@ -1,15 +1,9 @@
-
 Login Tracker
 -------------
 
 login_tracker is a Django reusable app to track logins.
 It keeps  track of all the login history
-
-Install
-------------
-
-
-    
+  
 
 
 Quick start
