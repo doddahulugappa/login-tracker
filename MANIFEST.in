@@ -1,4 +1,4 @@
 include LICENSE
-include README.rst
+include README.md
 recursive-include login_tracker/static *
 recursive-include login_tracker/templates *
