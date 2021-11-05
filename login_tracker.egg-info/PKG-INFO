@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: login-tracker
-Version: 0.2
+Version: 0.3
 Summary: A Django app to conduct Web-based login_tracker.
 Home-page: https://github.com/doddahulugappa/login-tracker
 Author: Doddahulugappa
@@ -10,7 +10,7 @@ Project-URL: Bug Tracker, https://github.com/doddahulugappa/login-tracker/issues
 Platform: UNKNOWN
 Classifier: Environment :: Web Environment
 Classifier: Framework :: Django
-Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 2.1
 Classifier: Intended Audience :: Developers
 Classifier: License :: OSI Approved :: BSD License
 Classifier: Operating System :: OS Independent
@@ -26,18 +26,12 @@ Requires-Python: >=3.6
 Description-Content-Type: text/markdown
 License-File: LICENSE
 
-
 Login Tracker
 -------------
 
 login_tracker is a Django reusable app to track logins.
 It keeps  track of all the login history
-
-Install
-------------
-
-
-    
+  
 
 
 Quick start

@@ -1,8 +1,13 @@
 LICENSE
 MANIFEST.in
 README.md
+README.rst
 setup.cfg
 setup.py
+dist/login_tracker-0.1-py3-none-any.whl
+dist/login_tracker-0.1.tar.gz
+dist/login_tracker-0.2-py3-none-any.whl
+dist/login_tracker-0.2.tar.gz
 login_tracker/__init__.py
 login_tracker/admin.py
 login_tracker/apps.py
@@ -16,7 +21,4 @@ login_tracker.egg-info/dependency_links.txt
 login_tracker.egg-info/requires.txt
 login_tracker.egg-info/top_level.txt
 login_tracker/migrations/0001_initial.py
-login_tracker/migrations/0002_auto_20211102_1151.py
-login_tracker/migrations/0003_loginhistorytracker_user_agent.py
-login_tracker/migrations/0004_remove_loginhistorytracker_browser.py
 login_tracker/migrations/__init__.py

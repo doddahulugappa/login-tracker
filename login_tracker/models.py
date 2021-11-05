@@ -49,7 +49,7 @@ def user_logged_in_callback(request,user,**kwargs):
                                        user_agent=user_agent)
 
 @receiver(user_logged_out)
-def user_logged_in_callback(request,user,**kwargs):
+def user_logged_out_callback(request,user,**kwargs):
     ip = request.META.get("REMOTE_ADDR")
     host = request.META.get("HTTP_HOST")
     user_agent = request.META.get("HTTP_USER_AGENT")
@@ -62,7 +62,7 @@ def user_logged_in_callback(request,user,**kwargs):
                                        user_agent=user_agent)
 
 @receiver(user_login_failed)
-def user_logged_in_callback(request,credentials,**kwargs):
+def user_login_failed_callback(request,credentials,**kwargs):
     ip = request.META.get("REMOTE_ADDR")
     host = request.META.get("HTTP_HOST")
     user_agent = request.META.get("HTTP_USER_AGENT")
